@@ -7,12 +7,12 @@
     setlocale(LC_TIME, 'es_ES');
     
     echo "La fecha de hoy es: ";
-    $fecha = strftime("%d/%b/%Y");
+    $fecha = date("%d/%b/%Y");
     echo $fecha;
     echo "<br>";
 
     echo "La hora actual es: ";
-    $hora = strftime("%H:%M:%S");
+    $hora = date("%H:%M:%S");
     echo $hora;
     echo "<br>";
     ?>
